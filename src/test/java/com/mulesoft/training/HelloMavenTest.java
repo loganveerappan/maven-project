@@ -10,7 +10,7 @@ public class HelloMavenTest extends FunctionalTestCase {
 		return "maven-project.xml";
 	}
 
-	@Test
+	//@Test
 	public void mavenFlowReturnsHelloMaven() throws Exception {
 		runFlowAndExpect("mavenFlow", "Hello Maven");
 	}
